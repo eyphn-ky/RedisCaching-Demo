@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryCaching", "InMemoryCaching\InMemoryCaching.csproj", "{DB72DD59-73AE-4E31-83E6-CD6179253C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedCaching", "DistributedCaching\DistributedCaching.csproj", "{C4BA2E1D-4BCF-4FA8-88B3-6CDCAFA85031}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB72DD59-73AE-4E31-83E6-CD6179253C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB72DD59-73AE-4E31-83E6-CD6179253C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB72DD59-73AE-4E31-83E6-CD6179253C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB72DD59-73AE-4E31-83E6-CD6179253C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4BA2E1D-4BCF-4FA8-88B3-6CDCAFA85031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BA2E1D-4BCF-4FA8-88B3-6CDCAFA85031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4BA2E1D-4BCF-4FA8-88B3-6CDCAFA85031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BA2E1D-4BCF-4FA8-88B3-6CDCAFA85031}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDBD1FEC-B69A-47E6-982F-AE9092EDEE38}
+	EndGlobalSection
+EndGlobal
