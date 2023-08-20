@@ -33,7 +33,7 @@ namespace DistributedCaching.Controllers
         public async Task<IActionResult> Get()
         {
             var name = await _distributedCache.GetStringAsync("name");
-            var surnameBinary= await _distributedCache.GetAsync("name");
+            var surnameBinary= await _distributedCache.GetAsync("surname");
             var surname = Encoding.UTF8.GetString(surnameBinary);
             return Ok(
                 new
